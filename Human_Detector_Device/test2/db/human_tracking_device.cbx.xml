@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="human_tracking_device">
+		<CBX_INST_ENTRY INSTANCE_NAME="|human_tracking_device|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_clm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|human_tracking_device|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_fdm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

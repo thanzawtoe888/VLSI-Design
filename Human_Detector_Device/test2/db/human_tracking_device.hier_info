@@ -1,0 +1,42 @@
+|human_tracking_device
+clk => alarm~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+reset => alarm~reg0.ACLR
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+reset => counter[4].ACLR
+reset => counter[5].ACLR
+reset => counter[6].ACLR
+human_detected => counter[6].ENA
+human_detected => counter[5].ENA
+human_detected => counter[4].ENA
+human_detected => counter[3].ENA
+human_detected => counter[2].ENA
+human_detected => counter[1].ENA
+human_detected => counter[0].ENA
+human_detected => alarm~reg0.ENA
+alarm <= alarm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg1[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg1[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg1[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg1[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg1[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg1[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg1[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg2[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+seg2[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+seg2[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+seg2[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+seg2[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+seg2[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+seg2[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+
+
